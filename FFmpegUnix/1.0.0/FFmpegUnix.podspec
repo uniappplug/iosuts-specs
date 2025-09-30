@@ -22,13 +22,5 @@ Pod::Spec.new do |s|
     "FFmpegUnix/libswscale.framework"
   ]
   s.resources =[]
-  s.preserve_paths = 'FFmpegUnix/*.framework'
-
- s.prepare_command = <<-CMD
-  find "${PWD}" -name ".DS_Store" -delete
-  find "${PWD}" -name "._*" -delete
-  find "${PWD}" -name ".Info.plist*" -delete
-  rm -rf "${PWD}/__MACOSX"
-  CMD
 end
 
