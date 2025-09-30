@@ -10,16 +10,16 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-lObjC'] }
   s.libraries = 'resolv', 'iconv'
   s.vendored_frameworks =[
-    "FFmpegUnix/ffmpegkit.framework",
-    "FFmpegUnix/FFmpegUnix.framework",
-    "FFmpegUnix/lame.framework",
-    "FFmpegUnix/libavcodec.framework",
-    "FFmpegUnix/libavdevice.framework",
-    "FFmpegUnix/libavfilter.framework",
-    "FFmpegUnix/libavformat.framework",
-    "FFmpegUnix/libavutil.framework",
-    "FFmpegUnix/libswresample.framework",
-    "FFmpegUnix/libswscale.framework"
+    "ffmpegkit.framework",
+    "FFmpegUnix.framework",
+    "lame.framework",
+    "libavcodec.framework",
+    "libavdevice.framework",
+    "libavfilter.framework",
+    "libavformat.framework",
+    "libavutil.framework",
+    "libswresample.framework",
+    "libswscale.framework"
   ]
   s.resources =[]
 end
