@@ -1,0 +1,44 @@
+{
+  "name": "UTSBaichuanSDK",
+  "version": "1.0.0",
+  "summary": "UTSBaichuanSDK this is Baichuan",
+  "description": "UTSBaichuanSDK this is Baichuan",
+  "license": {
+    "type": "Copyright",
+    "text": "html5-app copyright"
+  },
+  "authors": {
+    "sunxianglin": "2564034335@qq.com"
+  },
+  "homepage": "https://www.html5-app.com/",
+  "source": {
+    "http": "https://github.com/uniappplug/iosuts-specs/releases/download/v1.0.0/UTSBaichuanSDK-1.0.0.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  },
+  "frameworks": [
+    "JavaScriptCore",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreAudio"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z",
+    "resolv"
+  ],
+  "vendored_frameworks": [
+    "UTSBaichuanSDK/*.framework"
+  ],
+  "resources": [
+    "UTSBaichuanSDK/*.bundle"
+  ],
+  "preserve_paths": [
+    "UTSBaichuanSDK/*.*"
+  ]
+}
